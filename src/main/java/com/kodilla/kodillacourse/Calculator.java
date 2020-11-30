@@ -12,6 +12,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         //SpringApplication.run(KodillaCourseApplication.class, args);
+        //test
         Calculator calculator = new Calculator();
         calculator.someMethod();
         System.out.println("Zadziałało.");
