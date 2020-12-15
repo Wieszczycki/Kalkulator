@@ -21,11 +21,20 @@ public class TestingMain {
         // tu umieszczę kolejny test ->
         System.out.println("Test - pierwszy test jednostkowy:");
 
-        Calculator testCalcAdd = new Calculator();
+        Calculator calculator = new Calculator();
+        int add1 = calculator.add(10 ,7);
         System.out.println("test dodawania 10 + 7");
-        System.out.println(testCalcAdd.add(10, 7));
-        Calculator testCalcSub = new Calculator();
+        if (add1 == 17) {
+            System.out.println("Wynik poprawny = 17");
+        } else {
+            System.out.println("Błąd dodawania.");
+        }
+        int sub1 = calculator.substract(10 ,7);
         System.out.println("test odejmowania 10 - 7");
-        System.out.println(testCalcAdd.substract(10, 7));
+        if (sub1 == 3) {
+            System.out.println("Wynik poprawny = 3");
+        } else {
+            System.out.println("Błąd odejmowania.");
+        }
     }
 }
