@@ -1,10 +1,26 @@
 package com.kodilla.testing;
 
 import com.kodilla.testing.calculator.Calculator;
+import com.kodilla.testing.collection.OddNumbersExterminator;
 import com.kodilla.testing.user.SimpleUser;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TestingMain {
     public static void main(String[] args) {
+
+        /* ArrayList<Integer> l = new ArrayList<Integer>();
+        l.add(3);
+        l.add(2);
+        l.add(10);
+        l.add(1);
+        l.add(8);
+
+        OddNumbersExterminator test = new OddNumbersExterminator();
+        List<Integer> r = new ArrayList<Integer>();
+        r =test.exterminate(l);
+        System.out.println(r);
 
         System.out.println("Moduł 6. Wprowadzenie do testowania oprogramowania.");
 
@@ -36,5 +52,7 @@ public class TestingMain {
         } else {
             System.out.println("Błąd odejmowania.");
         }
+
+         */
     }
 }
